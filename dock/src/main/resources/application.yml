@@ -1,0 +1,16 @@
+spring: 
+  application: 
+    name: desafio-dock
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+  h2:
+    console:
+     settings:
+      trace: true 
+server: 
+  port: 8080
+  error:
+    include-message: always
