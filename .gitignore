@@ -11,7 +11,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -23,7 +22,14 @@
 hs_err_pid*
 
 HELP.md
-target/
+*/target/classes
+*/target/generated-sources
+*/target/generated-test-sources
+*/target/maven-archiver
+*/target/maven-status
+*/target/surefire-reports
+*/target/test-classes
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
