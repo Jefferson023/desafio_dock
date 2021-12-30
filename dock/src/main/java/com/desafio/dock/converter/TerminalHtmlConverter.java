@@ -17,7 +17,6 @@ import org.springframework.http.converter.HttpMessageNotWritableException;
 import org.springframework.web.server.ResponseStatusException;
 
 import com.desafio.dock.dto.TerminalRequestDto;
-import com.desafio.dock.entity.Terminal;
 
 /**
  * Converter to handle with text/html media type
