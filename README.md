@@ -14,5 +14,5 @@ cd desafio_dock
 java -jar dock/target/dock-0.0.1-SNAPSHOT.jar
 ```
 ## Heroku
-Uma versão da aplicação em nuvem também se encontra funcionando na seguinte URL https://desafio-dock1.herokuapp.com/ 
+Uma versão da aplicação também se encontra funcionando na seguinte URL https://desafio-dock1.herokuapp.com/ 
 Também é valido considerar que a cada alguns minutos o Heroku coloca as aplicações para dormir, o que pode atrasar algumas requisições ou apagar os dados do banco da memória. 
