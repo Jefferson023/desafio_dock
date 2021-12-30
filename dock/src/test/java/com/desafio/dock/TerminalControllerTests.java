@@ -52,7 +52,7 @@ public class TerminalControllerTests {
 			Integer sam, String ptid, Integer plat, String version, Integer mxr, 
 			Integer mxf, String pverfm) throws Exception {
 		
-		String htmlBody = "%s;%s;%s;%s;%s;%s;%s;%s;%s;%s".formatted(logic, serial, model, sam, 
+		String htmlBody = String.format("%d;%s;%s;%d;%s;%d;%s;%d;%d;%s",logic, serial, model, sam, 
 				ptid, plat, version, mxr, mxf, pverfm);
 		
 		String expectedRes = objectMapper.writeValueAsString(new TerminalResponseDto(logic, serial, model, sam, 
